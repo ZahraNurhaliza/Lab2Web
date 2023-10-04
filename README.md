@@ -68,8 +68,7 @@ Selanjutnya buka pada brwoser untuk melihat hasilnya.
 
 
 3. Menambahkan Inline CSS
-Kemudian tambahkan deklarasi inline CSS pada tag ```html 
- <p>``` seperti berikut.
+Kemudian tambahkan deklarasi inline CSS pada tag p seperti berikut.
 ```html
 <p style="text-align: center; color: #ccd8e4;">
 ```
@@ -79,9 +78,7 @@ Selanjutnya buka pada brwoser untuk melihat hasilnya.
 
 4. Membuat CSS Eksternal
 Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
-Kemudian tambahkan tag ```html
-<link>``` untuk merujuk file css yang sudah dibuat pada bagian ```html
-<head>```
+Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
 
 ```css
 nav {
@@ -192,17 +189,17 @@ nav {
 
 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan
 penjelasannya!
-•Pendeklarasian CSS h1 {...} dan #intro h1 {...} memiliki perbedaan dalam cara mereka memilih elemen HTML yang akan diberi gaya. Ini terkait dengan penggunaan selektor CSS dan cara mereka memengaruhi elemen-elemen tersebut. Berikut penjelasan perbedaan antara keduanya:
+• Pendeklarasian CSS h1 {...} dan #intro h1 {...} memiliki perbedaan dalam cara mereka memilih elemen HTML yang akan diberi gaya. Ini terkait dengan penggunaan selektor CSS dan cara mereka memengaruhi elemen-elemen tersebut. Berikut penjelasan perbedaan antara keduanya:
 
 - h1 {...}:
 Ini adalah contoh dari selektor umum (atau sering disebut juga selektor tipe).
-Ini akan memilih semua elemen <h1> di seluruh dokumen HTML.
-Gaya yang didefinisikan dalam blok CSS ini akan diterapkan pada semua elemen <h1> dalam dokumen.
+Ini akan memilih semua elemen h1 di seluruh dokumen HTML.
+Gaya yang didefinisikan dalam blok CSS ini akan diterapkan pada semua elemen h1 dalam dokumen.
 
 - #intro h1 {...}:
 Ini adalah contoh dari selektor turunan (descendant selector).
 Ini akan memilih semua elemen <h1> yang berada di dalam elemen dengan ID "intro".
-Gaya yang didefinisikan dalam blok CSS ini hanya akan diterapkan pada elemen-elemen <h1> yang berada dalam elemen dengan ID "intro".
+Gaya yang didefinisikan dalam blok CSS ini hanya akan diterapkan pada elemen-elemen h1 yang berada dalam elemen dengan ID "intro".
 
 
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada
@@ -222,7 +219,7 @@ Berikan penjelasan dan contohnya!
 ( <p id="paragraf-1" class="text-paragraf"> )
 ```
 • Ketika sebuah elemen HTML memiliki ID dan class, CSS akan memprioritaskan deklarasi berdasarkan ID daripada class. Ini karena ID adalah selector yang lebih spesifik daripada class. Jadi, jika ada deklarasi yang sama untuk ID dan class yang sama pada elemen yang sama,deklarasi yang berlaku adalah deklarasi ID.
-• conntohnya 
+- conntohnya 
 ```html
 <!DOCTYPE html>
 <html>
