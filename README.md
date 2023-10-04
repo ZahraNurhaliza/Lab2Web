@@ -198,7 +198,7 @@ Gaya yang didefinisikan dalam blok CSS ini akan diterapkan pada semua elemen h1 
 
 - #intro h1 {...}:
 Ini adalah contoh dari selektor turunan (descendant selector).
-Ini akan memilih semua elemen <h1> yang berada di dalam elemen dengan ID "intro".
+Ini akan memilih semua elemen h1 yang berada di dalam elemen dengan ID "intro".
 Gaya yang didefinisikan dalam blok CSS ini hanya akan diterapkan pada elemen-elemen h1 yang berada dalam elemen dengan ID "intro".
 
 
